@@ -76,7 +76,7 @@ Y = machine_downtime.iloc[:, -1]  #output data(Target variable)
 num_col = X.select_dtypes(exclude = ['object']).columns
 cat_col = X.iloc[:, :-1].select_dtypes(include = ['object']).columns
 
-# ### MinMaxScaler to convert the magnitude of the columns to a range of 0 to 1
+# ### StandardScaler to convert the distribution of the data with mean = 0 and stdv = 1
 num_pipeline = Pipeline(steps = [('impute', SimpleImputer(strategy = 'median')),
                                  ('scale', StandardScaler())])
 
