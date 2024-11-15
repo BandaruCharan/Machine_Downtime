@@ -1,7 +1,7 @@
 '''CRISP-ML(Q)
 
 a. Business & Data Understanding
-   Machines which manufacturs the pumps. Unplanned machine downtime which is leading to loos of productivity
+   Machines which manufacturs the pumps. Unplanned machine downtime which is leading to loss of productivity
    
     i. Business Objective - Minimize the Unplanned machine Downtime
     ii. Business Constraint - Minimize maintenance cost;Maximize equipment efficiency
